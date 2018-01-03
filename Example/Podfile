@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JMContainerControllers_Example' do
+  pod 'JMContainerControllers', :path => '../'
+
+  target 'JMContainerControllers_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

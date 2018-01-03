@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JMContainerControllers'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JMContainerControllers.'
+  s.summary          = 'Useful ViewControllers & ViewController Management'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ContainerViewControllers help you set up fast and easy ViewController hierachies.
+It can be cumbersome to add viewControllers. The Interface builder is not your friend. Also setting up the viewControllers programatically is also cumbersome.
+Issues are also common with sizing and re-layouting.
+This project offers some useful base viewControllers which extend the apple provided
+container controllers nicely:
+* JMContainerViewController offers a simple base class to embed viewControllers.
+* JMStackContainerViewController allows you to stack multiple child containers vertically.
+* JMDocumentViewController adds a title bar above your content.
+
+Also you can now establish viewController relationships directly with segues by using
+'JMEmbedSegue' or 'JMEmbedInDocumetSegue'. There are some manual steps neccessary, however I plan on implementing a interface builder rule to do these steps automatic.
+
                        DESC
 
   s.homepage         = 'https://github.com/staeblorette/JMContainerControllers'
@@ -37,6 +48,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -22,7 +22,7 @@ pod 'JMContainerControllers'
 
 ## Author
 
-staeblorette, martin.staehler@gmail.com
+Martin Stähler, martin.staehler@gmail.com
 
 ## License
 

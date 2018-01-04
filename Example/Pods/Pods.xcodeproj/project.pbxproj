@@ -13,9 +13,29 @@
 		563BB7E2EAF1902D621E6CDC7115F062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5EC61878AB05141C1EE021014CF52418 /* Pods-JMContainerControllers_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF764A3E1D0336850F09554B4245999 /* Pods-JMContainerControllers_Tests-dummy.m */; };
 		7B6D1129DD5BB0D13C3DB3F43825CA5E /* JMContainerControllers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CFFBC5D33D77406FCECC47F10C8A5E /* JMContainerControllers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF3A2D11FFDA54500912BB5 /* JMSegueTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2CB1FFDA54400912BB5 /* JMSegueTrigger.m */; };
+		8BF3A2D21FFDA54500912BB5 /* JMEmbedSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2CC1FFDA54400912BB5 /* JMEmbedSegue.m */; };
+		8BF3A2D31FFDA54500912BB5 /* JMContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2CD1FFDA54400912BB5 /* JMContainerViewController.m */; };
+		8BF3A2D41FFDA54500912BB5 /* JMSegueTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2CE1FFDA54500912BB5 /* JMSegueTrigger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF3A2D51FFDA54500912BB5 /* JMEmbedSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2CF1FFDA54500912BB5 /* JMEmbedSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF3A2D61FFDA54500912BB5 /* JMContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2D01FFDA54500912BB5 /* JMContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF3A2DF1FFDA5A500912BB5 /* JMStackContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2D81FFDA5A500912BB5 /* JMStackContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF3A2E01FFDA5A500912BB5 /* JMStackContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2D91FFDA5A500912BB5 /* JMStackContainerView.m */; };
+		8BF3A2E11FFDA5A500912BB5 /* JMStackContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2DB1FFDA5A500912BB5 /* JMStackContainerViewController.m */; };
+		8BF3A2E21FFDA5A500912BB5 /* JMStackContainer_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2DC1FFDA5A500912BB5 /* JMStackContainer_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8BF3A2E31FFDA5A500912BB5 /* JMStackContainer_Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2DD1FFDA5A500912BB5 /* JMStackContainer_Internal.m */; };
+		8BF3A2E41FFDA5A500912BB5 /* JMStackContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2DE1FFDA5A500912BB5 /* JMStackContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF3A2E61FFDA63F00912BB5 /* JMStackContainer_Internal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF3A2DA1FFDA5A500912BB5 /* JMStackContainer_Internal.xib */; };
+		8BF3A2E91FFDA6BB00912BB5 /* UIView+Embedding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2E71FFDA6BB00912BB5 /* UIView+Embedding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8BF3A2EA1FFDA6BB00912BB5 /* UIView+Embedding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2E81FFDA6BB00912BB5 /* UIView+Embedding.m */; };
+		8BF3A2F21FFDA72300912BB5 /* JMDocumentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF3A2EC1FFDA72300912BB5 /* JMDocumentViewController.xib */; };
+		8BF3A2F31FFDA72300912BB5 /* JMContainerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2ED1FFDA72300912BB5 /* JMContainerHeaderView.m */; };
+		8BF3A2F41FFDA72300912BB5 /* JMDocumentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2EE1FFDA72300912BB5 /* JMDocumentViewController.h */; };
+		8BF3A2F51FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF3A2EF1FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib */; };
+		8BF3A2F61FFDA72300912BB5 /* JMDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2F01FFDA72300912BB5 /* JMDocumentViewController.m */; };
+		8BF3A2F71FFDA72300912BB5 /* JMContainerHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2F11FFDA72300912BB5 /* JMContainerHeaderView.h */; };
 		91DB19B6F49784E42C1E499807822667 /* Pods-JMContainerControllers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D7E0B88EA78B1BC34B56C857D706D /* Pods-JMContainerControllers_Example-dummy.m */; };
 		A48BB2F2F41305246943DE5B92BFACC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D96DB05A3ED89D4E745D5E2524ABB848 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E83333B6D83A47136C993C6BCF36F6 /* ReplaceMe.m */; };
 		E1371DEB391381B367AEDFCB5B77FEC1 /* Pods-JMContainerControllers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E526A5FDC570DCA9346975DF2DA15E /* Pods-JMContainerControllers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -30,26 +50,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0106F55D5693D475ED7ABE20FEFB67EB /* Pods_JMContainerControllers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMContainerControllers_Tests.framework; path = "Pods-JMContainerControllers_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0106F55D5693D475ED7ABE20FEFB67EB /* Pods_JMContainerControllers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMContainerControllers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF7DB4B21934682A4781B59A7F6AAF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22418C6E2B0349A692F2CE1758A23B78 /* Pods-JMContainerControllers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMContainerControllers_Tests.modulemap"; sourceTree = "<group>"; };
+		22418C6E2B0349A692F2CE1758A23B78 /* Pods-JMContainerControllers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JMContainerControllers_Tests.modulemap"; sourceTree = "<group>"; };
 		2865685B5250D88CC5C1C7FE27458BF3 /* Pods-JMContainerControllers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMContainerControllers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		32E2F350DF9B7B93DF1DFF0433A74B62 /* Pods-JMContainerControllers_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMContainerControllers_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3D3D7E0B88EA78B1BC34B56C857D706D /* Pods-JMContainerControllers_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMContainerControllers_Example-dummy.m"; sourceTree = "<group>"; };
 		5392E7F7A56449E2F7F5A745CFD15DD2 /* Pods-JMContainerControllers_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMContainerControllers_Example-umbrella.h"; sourceTree = "<group>"; };
-		5CB5989311A725EE2C7DB4C55A004542 /* Pods_JMContainerControllers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMContainerControllers_Example.framework; path = "Pods-JMContainerControllers_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		637DD053488149ED118365BCA9A13142 /* JMContainerControllers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JMContainerControllers.modulemap; sourceTree = "<group>"; };
+		5CB5989311A725EE2C7DB4C55A004542 /* Pods_JMContainerControllers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMContainerControllers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		637DD053488149ED118365BCA9A13142 /* JMContainerControllers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JMContainerControllers.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66121AA292B61E3B9238605E3736F215 /* Pods-JMContainerControllers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMContainerControllers_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		69CFFBC5D33D77406FCECC47F10C8A5E /* JMContainerControllers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMContainerControllers-umbrella.h"; sourceTree = "<group>"; };
 		6DF764A3E1D0336850F09554B4245999 /* Pods-JMContainerControllers_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMContainerControllers_Tests-dummy.m"; sourceTree = "<group>"; };
-		748F4969DCA7869E2DF830D58DA19D5F /* JMContainerControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMContainerControllers.framework; path = JMContainerControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		748F4969DCA7869E2DF830D58DA19D5F /* JMContainerControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMContainerControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C57B4F1FCDFDB87C6B9F6B0961C5D51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		866BABFFCCBB96BF0A6C327313F62C81 /* Pods-JMContainerControllers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMContainerControllers_Example.modulemap"; sourceTree = "<group>"; };
+		866BABFFCCBB96BF0A6C327313F62C81 /* Pods-JMContainerControllers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JMContainerControllers_Example.modulemap"; sourceTree = "<group>"; };
 		875D61738BBD53987E351950606FE4E0 /* Pods-JMContainerControllers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMContainerControllers_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		88AD454A64824E0193E736720FB14857 /* Pods-JMContainerControllers_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMContainerControllers_Tests-resources.sh"; sourceTree = "<group>"; };
+		8BF3A2CB1FFDA54400912BB5 /* JMSegueTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSegueTrigger.m; sourceTree = "<group>"; };
+		8BF3A2CC1FFDA54400912BB5 /* JMEmbedSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMEmbedSegue.m; sourceTree = "<group>"; };
+		8BF3A2CD1FFDA54400912BB5 /* JMContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMContainerViewController.m; sourceTree = "<group>"; };
+		8BF3A2CE1FFDA54500912BB5 /* JMSegueTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSegueTrigger.h; sourceTree = "<group>"; };
+		8BF3A2CF1FFDA54500912BB5 /* JMEmbedSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMEmbedSegue.h; sourceTree = "<group>"; };
+		8BF3A2D01FFDA54500912BB5 /* JMContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMContainerViewController.h; sourceTree = "<group>"; };
+		8BF3A2D81FFDA5A500912BB5 /* JMStackContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMStackContainerViewController.h; sourceTree = "<group>"; };
+		8BF3A2D91FFDA5A500912BB5 /* JMStackContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMStackContainerView.m; sourceTree = "<group>"; };
+		8BF3A2DA1FFDA5A500912BB5 /* JMStackContainer_Internal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMStackContainer_Internal.xib; sourceTree = "<group>"; };
+		8BF3A2DB1FFDA5A500912BB5 /* JMStackContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMStackContainerViewController.m; sourceTree = "<group>"; };
+		8BF3A2DC1FFDA5A500912BB5 /* JMStackContainer_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMStackContainer_Internal.h; sourceTree = "<group>"; };
+		8BF3A2DD1FFDA5A500912BB5 /* JMStackContainer_Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMStackContainer_Internal.m; sourceTree = "<group>"; };
+		8BF3A2DE1FFDA5A500912BB5 /* JMStackContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMStackContainerView.h; sourceTree = "<group>"; };
+		8BF3A2E71FFDA6BB00912BB5 /* UIView+Embedding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Embedding.h"; sourceTree = "<group>"; };
+		8BF3A2E81FFDA6BB00912BB5 /* UIView+Embedding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Embedding.m"; sourceTree = "<group>"; };
+		8BF3A2EC1FFDA72300912BB5 /* JMDocumentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMDocumentViewController.xib; sourceTree = "<group>"; };
+		8BF3A2ED1FFDA72300912BB5 /* JMContainerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMContainerHeaderView.m; sourceTree = "<group>"; };
+		8BF3A2EE1FFDA72300912BB5 /* JMDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMDocumentViewController.h; sourceTree = "<group>"; };
+		8BF3A2EF1FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMContainerHeaderView_Internal.xib; sourceTree = "<group>"; };
+		8BF3A2F01FFDA72300912BB5 /* JMDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMDocumentViewController.m; sourceTree = "<group>"; };
+		8BF3A2F11FFDA72300912BB5 /* JMContainerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMContainerHeaderView.h; sourceTree = "<group>"; };
 		8D1525ACF3BC13DD7885DED62B726CE2 /* JMContainerControllers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMContainerControllers-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBF2029FC7241D14A3D9FECBCC83C27 /* Pods-JMContainerControllers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMContainerControllers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC71FD4E4505AB80B464343929384C1D /* Pods-JMContainerControllers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMContainerControllers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1BD5C3B5D6DE552EEFAFF8DFB087000 /* Pods-JMContainerControllers_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMContainerControllers_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -59,7 +100,6 @@
 		B919B10556ED5F19438A7DAE9E7EF14F /* Pods-JMContainerControllers_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMContainerControllers_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D4420FDEAD581B0E1D02F2006533DDC4 /* JMContainerControllers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMContainerControllers-dummy.m"; sourceTree = "<group>"; };
 		E5E526A5FDC570DCA9346975DF2DA15E /* Pods-JMContainerControllers_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMContainerControllers_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E7E83333B6D83A47136C993C6BCF36F6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JMContainerControllers/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		E9AE306319B2470AF30F390AF00A1C74 /* Pods-JMContainerControllers_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMContainerControllers_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EE6C8A75E528FF677F0D27C90EF97C80 /* JMContainerControllers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMContainerControllers.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,7 +167,9 @@
 		6E70C749BD4482A97B04E4F0CEABC48B /* JMContainerControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E7E83333B6D83A47136C993C6BCF36F6 /* ReplaceMe.m */,
+				8BF3A2EB1FFDA70300912BB5 /* DocumentContainer */,
+				8BF3A2D71FFDA55400912BB5 /* StackingContainer */,
+				8BF3A2CA1FFDA50800912BB5 /* Base */,
 				26D5E9AA841ED05120EE0B9AAE8B6952 /* Support Files */,
 			);
 			name = JMContainerControllers;
@@ -161,6 +203,48 @@
 			);
 			name = "Pods-JMContainerControllers_Example";
 			path = "Target Support Files/Pods-JMContainerControllers_Example";
+			sourceTree = "<group>";
+		};
+		8BF3A2CA1FFDA50800912BB5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8BF3A2E71FFDA6BB00912BB5 /* UIView+Embedding.h */,
+				8BF3A2E81FFDA6BB00912BB5 /* UIView+Embedding.m */,
+				8BF3A2D01FFDA54500912BB5 /* JMContainerViewController.h */,
+				8BF3A2CD1FFDA54400912BB5 /* JMContainerViewController.m */,
+				8BF3A2CF1FFDA54500912BB5 /* JMEmbedSegue.h */,
+				8BF3A2CC1FFDA54400912BB5 /* JMEmbedSegue.m */,
+				8BF3A2CE1FFDA54500912BB5 /* JMSegueTrigger.h */,
+				8BF3A2CB1FFDA54400912BB5 /* JMSegueTrigger.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8BF3A2D71FFDA55400912BB5 /* StackingContainer */ = {
+			isa = PBXGroup;
+			children = (
+				8BF3A2DC1FFDA5A500912BB5 /* JMStackContainer_Internal.h */,
+				8BF3A2DD1FFDA5A500912BB5 /* JMStackContainer_Internal.m */,
+				8BF3A2DA1FFDA5A500912BB5 /* JMStackContainer_Internal.xib */,
+				8BF3A2DE1FFDA5A500912BB5 /* JMStackContainerView.h */,
+				8BF3A2D91FFDA5A500912BB5 /* JMStackContainerView.m */,
+				8BF3A2D81FFDA5A500912BB5 /* JMStackContainerViewController.h */,
+				8BF3A2DB1FFDA5A500912BB5 /* JMStackContainerViewController.m */,
+			);
+			path = StackingContainer;
+			sourceTree = "<group>";
+		};
+		8BF3A2EB1FFDA70300912BB5 /* DocumentContainer */ = {
+			isa = PBXGroup;
+			children = (
+				8BF3A2EF1FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib */,
+				8BF3A2F11FFDA72300912BB5 /* JMContainerHeaderView.h */,
+				8BF3A2ED1FFDA72300912BB5 /* JMContainerHeaderView.m */,
+				8BF3A2EE1FFDA72300912BB5 /* JMDocumentViewController.h */,
+				8BF3A2F01FFDA72300912BB5 /* JMDocumentViewController.m */,
+				8BF3A2EC1FFDA72300912BB5 /* JMDocumentViewController.xib */,
+			);
+			path = DocumentContainer;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -213,7 +297,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF3A2F41FFDA72300912BB5 /* JMDocumentViewController.h in Headers */,
+				8BF3A2D41FFDA54500912BB5 /* JMSegueTrigger.h in Headers */,
 				7B6D1129DD5BB0D13C3DB3F43825CA5E /* JMContainerControllers-umbrella.h in Headers */,
+				8BF3A2F71FFDA72300912BB5 /* JMContainerHeaderView.h in Headers */,
+				8BF3A2D61FFDA54500912BB5 /* JMContainerViewController.h in Headers */,
+				8BF3A2E91FFDA6BB00912BB5 /* UIView+Embedding.h in Headers */,
+				8BF3A2E21FFDA5A500912BB5 /* JMStackContainer_Internal.h in Headers */,
+				8BF3A2D51FFDA54500912BB5 /* JMEmbedSegue.h in Headers */,
+				8BF3A2E41FFDA5A500912BB5 /* JMStackContainerView.h in Headers */,
+				8BF3A2DF1FFDA5A500912BB5 /* JMStackContainerViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +336,7 @@
 				FE4A222D28F3192482A18B24E56709A9 /* Sources */,
 				2B358D18D33C0E713FF9113999FE757C /* Frameworks */,
 				5101564A37D02BC22ECDB05636AE1DB1 /* Headers */,
+				8BF3A2E51FFDA63B00912BB5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -316,6 +410,19 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		8BF3A2E51FFDA63B00912BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF3A2F51FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib in Resources */,
+				8BF3A2F21FFDA72300912BB5 /* JMDocumentViewController.xib in Resources */,
+				8BF3A2E61FFDA63F00912BB5 /* JMStackContainer_Internal.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		771CBF9ED3ADB16E2CB5015C4557769C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -337,8 +444,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF3A2EA1FFDA6BB00912BB5 /* UIView+Embedding.m in Sources */,
+				8BF3A2D21FFDA54500912BB5 /* JMEmbedSegue.m in Sources */,
+				8BF3A2F31FFDA72300912BB5 /* JMContainerHeaderView.m in Sources */,
+				8BF3A2E31FFDA5A500912BB5 /* JMStackContainer_Internal.m in Sources */,
+				8BF3A2F61FFDA72300912BB5 /* JMDocumentViewController.m in Sources */,
+				8BF3A2E01FFDA5A500912BB5 /* JMStackContainerView.m in Sources */,
 				16001AAADD51CF65C837B1FAE66ECD8D /* JMContainerControllers-dummy.m in Sources */,
-				D96DB05A3ED89D4E745D5E2524ABB848 /* ReplaceMe.m in Sources */,
+				8BF3A2D11FFDA54500912BB5 /* JMSegueTrigger.m in Sources */,
+				8BF3A2E11FFDA5A500912BB5 /* JMStackContainerViewController.m in Sources */,
+				8BF3A2D31FFDA54500912BB5 /* JMContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

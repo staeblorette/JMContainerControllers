@@ -39,7 +39,7 @@ Also you can now establish viewController relationships directly with segues by 
   s.source           = { :git => 'https://github.com/staeblorette/JMContainerControllers.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'JMContainerControllers/Classes/**/*'
   

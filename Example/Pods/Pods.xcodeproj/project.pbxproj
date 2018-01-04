@@ -34,6 +34,8 @@
 		8BF3A2F51FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF3A2EF1FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib */; };
 		8BF3A2F61FFDA72300912BB5 /* JMDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2F01FFDA72300912BB5 /* JMDocumentViewController.m */; };
 		8BF3A2F71FFDA72300912BB5 /* JMContainerHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2F11FFDA72300912BB5 /* JMContainerHeaderView.h */; };
+		8BF3A3081FFDADC500912BB5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8BF3A3051FFDADC500912BB5 /* .gitkeep */; };
+		8BF3A3091FFDADC500912BB5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8BF3A3071FFDADC500912BB5 /* .gitkeep */; };
 		91DB19B6F49784E42C1E499807822667 /* Pods-JMContainerControllers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D7E0B88EA78B1BC34B56C857D706D /* Pods-JMContainerControllers_Example-dummy.m */; };
 		A48BB2F2F41305246943DE5B92BFACC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E1371DEB391381B367AEDFCB5B77FEC1 /* Pods-JMContainerControllers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E526A5FDC570DCA9346975DF2DA15E /* Pods-JMContainerControllers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -89,6 +91,8 @@
 		8BF3A2EF1FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMContainerHeaderView_Internal.xib; sourceTree = "<group>"; };
 		8BF3A2F01FFDA72300912BB5 /* JMDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMDocumentViewController.m; sourceTree = "<group>"; };
 		8BF3A2F11FFDA72300912BB5 /* JMContainerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMContainerHeaderView.h; sourceTree = "<group>"; };
+		8BF3A3051FFDADC500912BB5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8BF3A3071FFDADC500912BB5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8D1525ACF3BC13DD7885DED62B726CE2 /* JMContainerControllers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMContainerControllers-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBF2029FC7241D14A3D9FECBCC83C27 /* Pods-JMContainerControllers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMContainerControllers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -167,7 +171,7 @@
 		6E70C749BD4482A97B04E4F0CEABC48B /* JMContainerControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8BF3A2F81FFDA96900912BB5 /* Classes */,
+				8BF3A3031FFDADC500912BB5 /* JMContainerControllers */,
 				26D5E9AA841ED05120EE0B9AAE8B6952 /* Support Files */,
 			);
 			name = JMContainerControllers;
@@ -245,12 +249,30 @@
 			path = DocumentContainer;
 			sourceTree = "<group>";
 		};
-		8BF3A2F81FFDA96900912BB5 /* Classes */ = {
+		8BF3A3031FFDADC500912BB5 /* JMContainerControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BF3A3041FFDADC500912BB5 /* Assets */,
+				8BF3A3061FFDADC500912BB5 /* Classes */,
+			);
+			path = JMContainerControllers;
+			sourceTree = "<group>";
+		};
+		8BF3A3041FFDADC500912BB5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8BF3A3051FFDADC500912BB5 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8BF3A3061FFDADC500912BB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				8BF3A2EB1FFDA70300912BB5 /* DocumentContainer */,
 				8BF3A2D71FFDA55400912BB5 /* StackingContainer */,
 				8BF3A2CA1FFDA50800912BB5 /* Base */,
+				8BF3A3071FFDADC500912BB5 /* .gitkeep */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -425,7 +447,9 @@
 			files = (
 				8BF3A2F51FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib in Resources */,
 				8BF3A2F21FFDA72300912BB5 /* JMDocumentViewController.xib in Resources */,
+				8BF3A3091FFDADC500912BB5 /* .gitkeep in Resources */,
 				8BF3A2E61FFDA63F00912BB5 /* JMStackContainer_Internal.xib in Resources */,
+				8BF3A3081FFDADC500912BB5 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

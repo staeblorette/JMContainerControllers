@@ -167,9 +167,7 @@
 		6E70C749BD4482A97B04E4F0CEABC48B /* JMContainerControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8BF3A2EB1FFDA70300912BB5 /* DocumentContainer */,
-				8BF3A2D71FFDA55400912BB5 /* StackingContainer */,
-				8BF3A2CA1FFDA50800912BB5 /* Base */,
+				8BF3A2F81FFDA96900912BB5 /* Classes */,
 				26D5E9AA841ED05120EE0B9AAE8B6952 /* Support Files */,
 			);
 			name = JMContainerControllers;
@@ -245,6 +243,16 @@
 				8BF3A2EC1FFDA72300912BB5 /* JMDocumentViewController.xib */,
 			);
 			path = DocumentContainer;
+			sourceTree = "<group>";
+		};
+		8BF3A2F81FFDA96900912BB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8BF3A2EB1FFDA70300912BB5 /* DocumentContainer */,
+				8BF3A2D71FFDA55400912BB5 /* StackingContainer */,
+				8BF3A2CA1FFDA50800912BB5 /* Base */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -640,7 +648,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JMContainerControllers/JMContainerControllers-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JMContainerControllers/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JMContainerControllers/JMContainerControllers.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -673,7 +681,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JMContainerControllers/JMContainerControllers-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JMContainerControllers/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JMContainerControllers/JMContainerControllers.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;

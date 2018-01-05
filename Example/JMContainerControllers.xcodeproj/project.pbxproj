@@ -23,6 +23,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8BF3A3251FFEDA0800912BB5 /* JMEmbededViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A3241FFEDA0800912BB5 /* JMEmbededViewController1.m */; };
+		8BF3A3281FFEDA7500912BB5 /* JMEmbededViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A3271FFEDA7500912BB5 /* JMEmbededViewController2.m */; };
+		8BF3A3331FFEDDEB00912BB5 /* JMContainerControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF3A3341FFEDDEB00912BB5 /* JMContainerControllers.framework */; };
 		9D5D4EF4589FDFD0750265A9 /* Pods_JMContainerControllers_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A668EDD79CF639A1BA831C3 /* Pods_JMContainerControllers_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +41,8 @@
 
 /* Begin PBXFileReference section */
 		10D0A940D9142FB2AAAD1F6E /* Pods-JMContainerControllers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMContainerControllers_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMContainerControllers_Tests/Pods-JMContainerControllers_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		15A08183FF83A95694290EA0 /* JMContainerControllers.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JMContainerControllers.podspec; path = ../JMContainerControllers.podspec; sourceTree = "<group>"; };
-		29034B1123843BE2CABC045C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		15A08183FF83A95694290EA0 /* JMContainerControllers.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JMContainerControllers.podspec; path = ../JMContainerControllers.podspec; sourceTree = "<group>"; };
+		29034B1123843BE2CABC045C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3A668EDD79CF639A1BA831C3 /* Pods_JMContainerControllers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMContainerControllers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		418060615AD341E1216842EE /* Pods_JMContainerControllers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMContainerControllers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JMContainerControllers_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMContainerControllers_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +64,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6B787BFB4C9566CAD665849B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6B787BFB4C9566CAD665849B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BF3A3231FFEDA0800912BB5 /* JMEmbededViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMEmbededViewController1.h; sourceTree = "<group>"; };
+		8BF3A3241FFEDA0800912BB5 /* JMEmbededViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMEmbededViewController1.m; sourceTree = "<group>"; };
+		8BF3A3261FFEDA7500912BB5 /* JMEmbededViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMEmbededViewController2.h; sourceTree = "<group>"; };
+		8BF3A3271FFEDA7500912BB5 /* JMEmbededViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMEmbededViewController2.m; sourceTree = "<group>"; };
+		8BF3A3341FFEDDEB00912BB5 /* JMContainerControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JMContainerControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9976E735F04341DD1BEB693E /* Pods-JMContainerControllers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMContainerControllers_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMContainerControllers_Example/Pods-JMContainerControllers_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E6FB40DFAC5031D88BDC66EB /* Pods-JMContainerControllers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMContainerControllers_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMContainerControllers_Example/Pods-JMContainerControllers_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F0B3CA82CDE96CFF1FF15495 /* Pods-JMContainerControllers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMContainerControllers_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMContainerControllers_Tests/Pods-JMContainerControllers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF3A3331FFEDDEB00912BB5 /* JMContainerControllers.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +128,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8BF3A3341FFEDDEB00912BB5 /* JMContainerControllers.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -137,6 +147,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* JMViewController.h */,
 				6003F5A6195388D20070C39A /* JMViewController.m */,
+				8BF3A3231FFEDA0800912BB5 /* JMEmbededViewController1.h */,
+				8BF3A3241FFEDA0800912BB5 /* JMEmbededViewController1.m */,
+				8BF3A3261FFEDA7500912BB5 /* JMEmbededViewController2.h */,
+				8BF3A3271FFEDA7500912BB5 /* JMEmbededViewController2.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -405,7 +419,9 @@
 			files = (
 				6003F59E195388D20070C39A /* JMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JMViewController.m in Sources */,
+				8BF3A3251FFEDA0800912BB5 /* JMEmbededViewController1.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8BF3A3281FFEDA7500912BB5 /* JMEmbededViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

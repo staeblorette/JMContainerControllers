@@ -25,7 +25,7 @@
 
 - (void)perform  {
     JMContainerViewController *container = self.sourceViewController;
-    JMDocumentViewController *embededContainer = [[JMDocumentViewController alloc] init];
+    JMDocumentViewController *embededContainer = [[JMDocumentViewController alloc] initWithNibName:@"JMDocumentViewController" bundle:[NSBundle bundleForClass:[self class]]];
     [embededContainer addViewController:self.destinationViewController];
     [container addViewController:embededContainer];
 }

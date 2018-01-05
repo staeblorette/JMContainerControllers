@@ -29,13 +29,17 @@
 		8BF3A2E91FFDA6BB00912BB5 /* UIView+Embedding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2E71FFDA6BB00912BB5 /* UIView+Embedding.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8BF3A2EA1FFDA6BB00912BB5 /* UIView+Embedding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2E81FFDA6BB00912BB5 /* UIView+Embedding.m */; };
 		8BF3A2F21FFDA72300912BB5 /* JMDocumentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF3A2EC1FFDA72300912BB5 /* JMDocumentViewController.xib */; };
-		8BF3A2F31FFDA72300912BB5 /* JMContainerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2ED1FFDA72300912BB5 /* JMContainerHeaderView.m */; };
-		8BF3A2F41FFDA72300912BB5 /* JMDocumentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2EE1FFDA72300912BB5 /* JMDocumentViewController.h */; };
+		8BF3A2F41FFDA72300912BB5 /* JMDocumentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2EE1FFDA72300912BB5 /* JMDocumentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BF3A2F51FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF3A2EF1FFDA72300912BB5 /* JMContainerHeaderView_Internal.xib */; };
 		8BF3A2F61FFDA72300912BB5 /* JMDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2F01FFDA72300912BB5 /* JMDocumentViewController.m */; };
-		8BF3A2F71FFDA72300912BB5 /* JMContainerHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2F11FFDA72300912BB5 /* JMContainerHeaderView.h */; };
+		8BF3A2F71FFDA72300912BB5 /* JMContainerHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A2F11FFDA72300912BB5 /* JMContainerHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BF3A3081FFDADC500912BB5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8BF3A3051FFDADC500912BB5 /* .gitkeep */; };
 		8BF3A3091FFDADC500912BB5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8BF3A3071FFDADC500912BB5 /* .gitkeep */; };
+		8BF3A32D1FFEDBB200912BB5 /* JMHairlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A3291FFEDBB100912BB5 /* JMHairlineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF3A32E1FFEDBB200912BB5 /* JMHairlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A32A1FFEDBB200912BB5 /* JMHairlineView.m */; };
+		8BF3A32F1FFEDBB200912BB5 /* JMHeaderLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A32B1FFEDBB200912BB5 /* JMHeaderLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF3A3301FFEDBB200912BB5 /* JMHeaderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A32C1FFEDBB200912BB5 /* JMHeaderLabel.m */; };
+		8BF3A3321FFEDDBF00912BB5 /* JMContainerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A2ED1FFDA72300912BB5 /* JMContainerHeaderView.m */; };
 		91DB19B6F49784E42C1E499807822667 /* Pods-JMContainerControllers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D7E0B88EA78B1BC34B56C857D706D /* Pods-JMContainerControllers_Example-dummy.m */; };
 		A48BB2F2F41305246943DE5B92BFACC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E1371DEB391381B367AEDFCB5B77FEC1 /* Pods-JMContainerControllers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E526A5FDC570DCA9346975DF2DA15E /* Pods-JMContainerControllers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -93,6 +97,10 @@
 		8BF3A2F11FFDA72300912BB5 /* JMContainerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMContainerHeaderView.h; sourceTree = "<group>"; };
 		8BF3A3051FFDADC500912BB5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8BF3A3071FFDADC500912BB5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8BF3A3291FFEDBB100912BB5 /* JMHairlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMHairlineView.h; sourceTree = "<group>"; };
+		8BF3A32A1FFEDBB200912BB5 /* JMHairlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMHairlineView.m; sourceTree = "<group>"; };
+		8BF3A32B1FFEDBB200912BB5 /* JMHeaderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMHeaderLabel.h; sourceTree = "<group>"; };
+		8BF3A32C1FFEDBB200912BB5 /* JMHeaderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMHeaderLabel.m; sourceTree = "<group>"; };
 		8D1525ACF3BC13DD7885DED62B726CE2 /* JMContainerControllers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMContainerControllers-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBF2029FC7241D14A3D9FECBCC83C27 /* Pods-JMContainerControllers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMContainerControllers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -245,6 +253,10 @@
 				8BF3A2EE1FFDA72300912BB5 /* JMDocumentViewController.h */,
 				8BF3A2F01FFDA72300912BB5 /* JMDocumentViewController.m */,
 				8BF3A2EC1FFDA72300912BB5 /* JMDocumentViewController.xib */,
+				8BF3A3291FFEDBB100912BB5 /* JMHairlineView.h */,
+				8BF3A32A1FFEDBB200912BB5 /* JMHairlineView.m */,
+				8BF3A32B1FFEDBB200912BB5 /* JMHeaderLabel.h */,
+				8BF3A32C1FFEDBB200912BB5 /* JMHeaderLabel.m */,
 			);
 			path = DocumentContainer;
 			sourceTree = "<group>";
@@ -330,11 +342,13 @@
 				8BF3A2F41FFDA72300912BB5 /* JMDocumentViewController.h in Headers */,
 				8BF3A2D41FFDA54500912BB5 /* JMSegueTrigger.h in Headers */,
 				7B6D1129DD5BB0D13C3DB3F43825CA5E /* JMContainerControllers-umbrella.h in Headers */,
+				8BF3A32D1FFEDBB200912BB5 /* JMHairlineView.h in Headers */,
 				8BF3A2F71FFDA72300912BB5 /* JMContainerHeaderView.h in Headers */,
 				8BF3A2D61FFDA54500912BB5 /* JMContainerViewController.h in Headers */,
 				8BF3A2E91FFDA6BB00912BB5 /* UIView+Embedding.h in Headers */,
 				8BF3A2E21FFDA5A500912BB5 /* JMStackContainer_Internal.h in Headers */,
 				8BF3A2D51FFDA54500912BB5 /* JMEmbedSegue.h in Headers */,
+				8BF3A32F1FFEDBB200912BB5 /* JMHeaderLabel.h in Headers */,
 				8BF3A2E41FFDA5A500912BB5 /* JMStackContainerView.h in Headers */,
 				8BF3A2DF1FFDA5A500912BB5 /* JMStackContainerViewController.h in Headers */,
 			);
@@ -478,13 +492,15 @@
 			files = (
 				8BF3A2EA1FFDA6BB00912BB5 /* UIView+Embedding.m in Sources */,
 				8BF3A2D21FFDA54500912BB5 /* JMEmbedSegue.m in Sources */,
-				8BF3A2F31FFDA72300912BB5 /* JMContainerHeaderView.m in Sources */,
 				8BF3A2E31FFDA5A500912BB5 /* JMStackContainer_Internal.m in Sources */,
 				8BF3A2F61FFDA72300912BB5 /* JMDocumentViewController.m in Sources */,
 				8BF3A2E01FFDA5A500912BB5 /* JMStackContainerView.m in Sources */,
+				8BF3A3301FFEDBB200912BB5 /* JMHeaderLabel.m in Sources */,
 				16001AAADD51CF65C837B1FAE66ECD8D /* JMContainerControllers-dummy.m in Sources */,
 				8BF3A2D11FFDA54500912BB5 /* JMSegueTrigger.m in Sources */,
+				8BF3A3321FFEDDBF00912BB5 /* JMContainerHeaderView.m in Sources */,
 				8BF3A2E11FFDA5A500912BB5 /* JMStackContainerViewController.m in Sources */,
+				8BF3A32E1FFEDBB200912BB5 /* JMHairlineView.m in Sources */,
 				8BF3A2D31FFDA54500912BB5 /* JMContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

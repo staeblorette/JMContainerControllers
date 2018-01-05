@@ -13,7 +13,6 @@
 
 @interface JMStackContainerViewController ()
 @property (nonatomic, strong) NSMutableArray <NSLayoutConstraint *> *constraintSpecifiers;
-@property (nonatomic, strong) IBOutletCollection(JMSegueTrigger) NSArray <JMSegueTrigger *> *storyboardSegues;
 @end
 
 @implementation JMStackContainerViewController

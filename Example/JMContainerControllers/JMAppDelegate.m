@@ -7,13 +7,30 @@
 //
 
 #import "JMAppDelegate.h"
+#import <JMContainerControllers/JMContainerControllers-umbrella.h>
+
+@import JMContainerControllers;
 
 @implementation JMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
+	// Update Container Header
+	JMContainerHeaderView *containerHeader = [JMContainerHeaderView appearance];
+	[containerHeader setBackgroundColor:[UIColor colorWithHue:0.7 saturation:0.85 brightness:0.66 alpha:1]];
+	[containerHeader setHeight:100];
+	
+	JMSubHeaderLabel *subHeader = [JMSubHeaderLabel appearance];
+	[subHeader setHeaderTextColor:[UIColor greenColor]];
+	
+	JMHeaderLabel *header = [JMHeaderLabel appearance];
+	[header setHeaderTextColor:[UIColor greenColor]];
+	
+	JMHairlineView *hairline = [JMHairlineView appearance];
+	[hairline setBackgroundColor:[UIColor greenColor]];
+
+
+	return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

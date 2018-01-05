@@ -20,12 +20,227 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ky-Bn-hEQ">
+                                <rect key="frame" x="132" y="268.5" width="110" height="30"/>
+                                <state key="normal" title="Stack Container"/>
+                                <connections>
+                                    <segue destination="Zhq-bz-qO7" kind="show" id="xzp-1Q-Aty"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtt-67-mUh">
+                                <rect key="frame" x="127.5" y="368.5" width="120" height="30"/>
+                                <state key="normal" title="Default Container"/>
+                                <connections>
+                                    <segue destination="2EL-IP-8b9" kind="show" id="Hca-Zk-bzc"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jtt-67-mUh" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="CR1-kh-ICE"/>
+                            <constraint firstItem="3ky-Bn-hEQ" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="DaK-s9-o2Z"/>
+                            <constraint firstItem="Jtt-67-mUh" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="50" id="GXa-71-Vl6"/>
+                            <constraint firstItem="3ky-Bn-hEQ" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="-50" id="mL8-kj-epV"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="305" y="433"/>
+        </scene>
+        <!--Container View Controller-->
+        <scene sceneID="fa5-pb-iGH">
+            <objects>
+                <viewController id="2EL-IP-8b9" customClass="JMContainerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xpG-gD-LIT"/>
+                        <viewControllerLayoutGuide type="bottom" id="jvX-or-jbI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mqd-Vp-Irj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.26910155079999998" green="0.15055861970000001" blue="0.57254904510000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="segueTriggers" destination="P2c-i8-kAe" id="jUv-r9-RCJ"/>
+                        <segue destination="5lI-ZH-EA0" kind="custom" identifier="JMEmbedSegueIdentifier" customClass="JMEmbedSegue" id="x2I-kd-9WO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LQj-6h-3TK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="P2c-i8-kAe" customClass="JMSegueTrigger">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="segueIdentifier" value="JMEmbedSegueIdentifier"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1246" y="802"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qFN-HA-3MD">
+            <objects>
+                <viewController id="5lI-ZH-EA0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="evU-XA-10Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="psn-WH-FDE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Ts-E7-tlX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simple ViewController" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40v-Qm-e0F">
+                                <rect key="frame" x="64.5" y="318" width="247" height="31.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.75435740849999999" green="0.98039215800000001" blue="0.2995678665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35686274509999999" green="0.039215686270000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="40v-Qm-e0F" firstAttribute="centerY" secondItem="9Ts-E7-tlX" secondAttribute="centerY" id="u5W-NI-HjL"/>
+                            <constraint firstItem="40v-Qm-e0F" firstAttribute="centerX" secondItem="9Ts-E7-tlX" secondAttribute="centerX" id="v4y-4A-VE1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pfz-CJ-7Jv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2094" y="802"/>
+        </scene>
+        <!--Stack Container View Controller-->
+        <scene sceneID="vUc-bE-iag">
+            <objects>
+                <viewController id="Zhq-bz-qO7" customClass="JMStackContainerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vUH-27-gzw"/>
+                        <viewControllerLayoutGuide type="bottom" id="oJp-I5-GhN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v8U-6R-AMi" customClass="JMStackContainerView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.26910155079999998" green="0.15055861970000001" blue="0.57254904510000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="segueTriggers" destination="iH8-fs-Of6" id="XAy-C5-nWZ"/>
+                        <outletCollection property="segueTriggers" destination="QdC-hB-LOI" id="v5D-cA-aOK"/>
+                        <outletCollection property="segueTriggers" destination="a5z-uB-o4A" id="NJA-DT-GtO"/>
+                        <segue destination="KtP-99-U49" kind="custom" identifier="EmbedSegueIdentifier" customClass="JMEmbedSegue" id="2Y7-dI-4kt"/>
+                        <segue destination="3ed-T0-Jvt" kind="custom" identifier="EmbedInDocumentSegueIdentifier" customClass="JMEmbedInDocumentSegue" id="56J-da-vNu"/>
+                        <segue destination="D3W-Ml-rxP" kind="custom" identifier="EmbedInDocumentSegueIdentifier1" customClass="JMEmbedInDocumentSegue" id="yQV-Np-12v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6TB-w6-CrB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="iH8-fs-Of6" customClass="JMSegueTrigger">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="segueIdentifier" value="EmbedSegueIdentifier"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+                <customObject id="a5z-uB-o4A" customClass="JMSegueTrigger">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="segueIdentifier" value="EmbedInDocumentSegueIdentifier1"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+                <customObject id="QdC-hB-LOI" customClass="JMSegueTrigger">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="segueIdentifier" value="EmbedInDocumentSegueIdentifier"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1239" y="149"/>
+        </scene>
+        <!--Document Title-->
+        <scene sceneID="bNr-WH-ZLD">
+            <objects>
+                <viewController id="3ed-T0-Jvt" customClass="JMEmbededViewController2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ATV-2u-tKS"/>
+                        <viewControllerLayoutGuide type="bottom" id="mAP-iF-kwq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nFg-Ho-NfF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Document Segue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xx6-rJ-hor">
+                                <rect key="frame" x="90" y="84.5" width="194.5" height="31.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.75435740849999999" green="0.98039215800000001" blue="0.2995678665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35686274509999999" green="0.039215686270000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xx6-rJ-hor" firstAttribute="centerX" secondItem="nFg-Ho-NfF" secondAttribute="centerX" id="jSc-Fz-gIq"/>
+                            <constraint firstItem="xx6-rJ-hor" firstAttribute="centerY" secondItem="nFg-Ho-NfF" secondAttribute="centerY" id="jUe-Cg-2Gg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Document Title" prompt="Prompt" id="jkA-ib-uUn"/>
+                    <size key="freeformSize" width="375" height="200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d6g-Lp-ZKo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2094" y="-61"/>
+        </scene>
+        <!--Another Document-->
+        <scene sceneID="TuS-bm-moI">
+            <objects>
+                <viewController id="D3W-Ml-rxP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qjt-Em-TSe"/>
+                        <viewControllerLayoutGuide type="bottom" id="eb7-GH-Oh7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xIg-5b-tHu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Document Segue 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Tm-Lu-MOC">
+                                <rect key="frame" x="79.5" y="184.5" width="215.5" height="31.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.75435740849999999" green="0.98039215800000001" blue="0.2995678665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35686274509999999" green="0.039215686270000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9Tm-Lu-MOC" firstAttribute="centerX" secondItem="xIg-5b-tHu" secondAttribute="centerX" id="Wpz-P2-jA0"/>
+                            <constraint firstItem="9Tm-Lu-MOC" firstAttribute="centerY" secondItem="xIg-5b-tHu" secondAttribute="centerY" id="xkg-kF-AZU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Another Document" id="3w4-CS-D01"/>
+                    <size key="freeformSize" width="375" height="400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0sk-Rq-8wF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2094" y="248"/>
+        </scene>
+        <!--Embeded View Controller1-->
+        <scene sceneID="RG4-I4-3Pf">
+            <objects>
+                <viewController id="KtP-99-U49" customClass="JMEmbededViewController1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eql-0Z-ps2"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xwf-3K-qWC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O8I-pc-enP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Normal Embed Segue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1a-mE-Xnl">
+                                <rect key="frame" x="66" y="44.5" width="244" height="31.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.35686274509999999" green="0.039215686270000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75435740849999999" green="0.98039215800000001" blue="0.2995678665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I1a-mE-Xnl" firstAttribute="centerX" secondItem="O8I-pc-enP" secondAttribute="centerX" id="OYk-zP-QRw"/>
+                            <constraint firstItem="I1a-mE-Xnl" firstAttribute="centerY" secondItem="O8I-pc-enP" secondAttribute="centerY" id="vIg-CX-HtL"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="375" height="120"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vCZ-Zb-WIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2094" y="-255"/>
         </scene>
     </scenes>
 </document>

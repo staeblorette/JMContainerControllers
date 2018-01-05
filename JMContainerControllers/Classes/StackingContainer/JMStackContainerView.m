@@ -31,10 +31,6 @@
     [self setStackInternal:internalView];
 }
 
-- (void)didMoveToSuperview:(UIView *)superView {
-	NSLog(@"super");
-}
-
 - (void)addChildView:(UIView *)view
 {
     [[self stackInternal] addStackedView:view];

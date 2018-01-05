@@ -84,7 +84,8 @@
 	NSArray <NSString *> *registersSegueTemplates = [self valueForKeyPath:@"segueTriggers.segueIdentifier"];
 	for (NSString *identifier in segueTemplatesIdentifiers) {
 		if (![registersSegueTemplates containsObject:identifier]) {
-		NSLog(@"Failed to find connection between segue with identifier '%@' and storyboard segues. Please add a JMSegueTrigger object to your storyboard file and attach the trigger to the segue trigger outlet connection.	\n You can also add the build rule to automatically do this for you. ", identifier);
+			NSLog(@"Failed to find connection between segue with identifier '%@' and storyboard segues. Please add a JMSegueTrigger object to your storyboard file and attach the trigger to the segue trigger outlet connection.	\n You can also add the build rule to automatically do this for you. ", identifier);
+		}
 	}
 }
 #endif

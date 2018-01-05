@@ -19,6 +19,21 @@ container controllers nicely:
 Also you can now establish viewController relationships directly with segues by using
 'JMEmbedSegue' or 'JMEmbedInDocumetSegue'. There are some manual steps neccessary, however I plan on implementing a interface builder rule to do these steps automatic.
 
+### Default Container Controller
+
+![Alt text](/../screenshots/Screenshots/SegueSetupDefault.png?raw=true)
+The default container simply adds the view to the container's subviews.
+
+### StackContainer && Document Containeradds
+
+![Alt text](/../screenshots/Screenshots/StackContainer.png?raw=true)
+This stack container combines normal ViewControllers and ViewControllers embeded in Document Containers.
+
+![Alt text](/../screenshots/Screenshots/SegueSetupStack.png?raw=true)
+The setup of the storyboard. The viewControllers that have been embeded in Document Controllers use a
+JMEmbedInDocumentSegue while the normal ViewControllers use a JMEmbedSegue.
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -61,6 +76,9 @@ Here is how it works:
 * Add a 'JMEmbedSegue' or 'JMEmbedInDocumentSegue' segue between your container view controller and your child controller.
 * Add a custom object of type 'JMSegueTrigger' and set the identifier property to the respective segue's identifer.
 * Add the segue trigger to the outlet collection of segue triggers.
+
+![Alt text](/../screenshots/Screenshots/Interface%20actions.png?raw=true)
+
 
 ## Author
 
